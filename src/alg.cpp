@@ -30,7 +30,7 @@ int cbinsearch(int *arr, int size, int value) {
         }
     }
     if (firstFlag != -1 && lastFlag != -1) {
-        return lastOccurrence - firstOccurrence + 1;
+        return lastFlag - firstFlag + 1;
     } else {
         return 0;
     }
